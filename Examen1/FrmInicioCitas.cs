@@ -70,5 +70,45 @@ namespace Examen1
             this.Hide();
             frmReporteCitas.Show();
         }
+
+        private void btEliminarCita_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Verificar si se ha seleccionado una fila en el DataGridView
+                if (dataGridCitas.SelectedRows.Count > 0)
+                {
+                    // Obtener el ID de la cita de la fila seleccionada
+                    int idCita = Convert.ToInt32(dataGridCitas.SelectedRows[0].Cells["IDCita"].Value);
+
+                   
+
+                    // Mostrar mensaje de confirmación con el nombre del medico
+                    var confirmResult = MessageBox.Show($"¿Está seguro de que desea eliminar la cita ?",
+                                                        "Confirmar eliminación",
+                                                        MessageBoxButtons.YesNo,
+                                                        MessageBoxIcon.Warning);
+
+                    if (confirmResult == DialogResult.Yes)
+                    {
+
+                        _conexion.EliminarCita(idCita);
+
+
+                        MessageBox.Show("Cita eliminada correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        dataGridCitas.DataSource = _conexion.ObtenerCitas();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Debe seleccionar una cita para eliminar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al eliminar la cita: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

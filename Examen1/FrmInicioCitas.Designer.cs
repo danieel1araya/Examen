@@ -38,6 +38,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnAgregarInicoCitas = new System.Windows.Forms.Button();
             this.btnReporteCitas = new System.Windows.Forms.Button();
+            this.btEliminarCita = new System.Windows.Forms.Button();
+            this.btEditarCita = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCitas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picturaBoxCitas)).BeginInit();
@@ -51,7 +53,7 @@
             this.panel1.Controls.Add(this.dataGridCitas);
             this.panel1.Location = new System.Drawing.Point(292, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(555, 362);
+            this.panel1.Size = new System.Drawing.Size(610, 362);
             this.panel1.TabIndex = 0;
             // 
             // dataGridCitas
@@ -61,7 +63,7 @@
             this.dataGridCitas.Name = "dataGridCitas";
             this.dataGridCitas.RowHeadersWidth = 51;
             this.dataGridCitas.RowTemplate.Height = 24;
-            this.dataGridCitas.Size = new System.Drawing.Size(546, 356);
+            this.dataGridCitas.Size = new System.Drawing.Size(604, 356);
             this.dataGridCitas.TabIndex = 0;
             // 
             // lblCitas
@@ -113,12 +115,14 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.btEditarCita);
+            this.panel3.Controls.Add(this.btEliminarCita);
             this.panel3.Controls.Add(this.btnAgregarInicoCitas);
             this.panel3.Controls.Add(this.btnReporteCitas);
             this.panel3.Controls.Add(this.btnRegresarCitas);
             this.panel3.Location = new System.Drawing.Point(12, 380);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(835, 112);
+            this.panel3.Size = new System.Drawing.Size(896, 112);
             this.panel3.TabIndex = 2;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -127,7 +131,7 @@
             this.btnAgregarInicoCitas.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnAgregarInicoCitas.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarInicoCitas.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarInicoCitas.Location = new System.Drawing.Point(263, 67);
+            this.btnAgregarInicoCitas.Location = new System.Drawing.Point(233, 67);
             this.btnAgregarInicoCitas.Name = "btnAgregarInicoCitas";
             this.btnAgregarInicoCitas.Size = new System.Drawing.Size(205, 36);
             this.btnAgregarInicoCitas.TabIndex = 2;
@@ -148,12 +152,37 @@
             this.btnReporteCitas.UseVisualStyleBackColor = false;
             this.btnReporteCitas.Click += new System.EventHandler(this.btnReporteCitas_Click);
             // 
+            // btEliminarCita
+            // 
+            this.btEliminarCita.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btEliminarCita.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEliminarCita.ForeColor = System.Drawing.Color.White;
+            this.btEliminarCita.Location = new System.Drawing.Point(460, 67);
+            this.btEliminarCita.Name = "btEliminarCita";
+            this.btEliminarCita.Size = new System.Drawing.Size(205, 36);
+            this.btEliminarCita.TabIndex = 3;
+            this.btEliminarCita.Text = "Eliminar";
+            this.btEliminarCita.UseVisualStyleBackColor = false;
+            this.btEliminarCita.Click += new System.EventHandler(this.btEliminarCita_Click);
+            // 
+            // btEditarCita
+            // 
+            this.btEditarCita.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btEditarCita.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btEditarCita.ForeColor = System.Drawing.Color.White;
+            this.btEditarCita.Location = new System.Drawing.Point(682, 67);
+            this.btEditarCita.Name = "btEditarCita";
+            this.btEditarCita.Size = new System.Drawing.Size(205, 36);
+            this.btEditarCita.TabIndex = 4;
+            this.btEditarCita.Text = "Editar";
+            this.btEditarCita.UseVisualStyleBackColor = false;
+            // 
             // FrmInicioCitas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(853, 504);
+            this.ClientSize = new System.Drawing.Size(914, 504);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -180,5 +209,7 @@
         private System.Windows.Forms.DataGridView dataGridCitas;
         private System.Windows.Forms.Button btnAgregarInicoCitas;
         private System.Windows.Forms.Button btnReporteCitas;
+        private System.Windows.Forms.Button btEditarCita;
+        private System.Windows.Forms.Button btEliminarCita;
     }
 }

@@ -40,6 +40,7 @@ namespace Examen1
             pbFotoPaciente.BorderStyle = BorderStyle.FixedSingle;
 
             this.Controls.Add(pbFotoPaciente); // Agregar al formulario
+            dateTimePicker1.MaxDate = DateTime.Now;
         }
 
         private void lblPacientes_Click(object sender, EventArgs e)

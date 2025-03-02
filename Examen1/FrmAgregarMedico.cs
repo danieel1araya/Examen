@@ -152,6 +152,9 @@ namespace Examen1
             return count > 0; // Si el número de teléfono ya existe, retornamos true
         }
 
+
+
+
         private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 

@@ -1,0 +1,75 @@
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\Examen1.exe.config
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\Examen1.exe
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\Examen1.pdb
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.csproj.AssemblyReference.cache
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.Form1.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.Properties.Resources.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.csproj.GenerateResource.cache
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.csproj.CoreCompileInputs.cache
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.exe
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.pdb
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\BLL.dll
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\DAL.dll
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\BLL.pdb
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\bin\Debug\DAL.pdb
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmPrincipal.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.csproj.Up2Date
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmInicioCitas.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarCita.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmInicioPaciente.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmInicioMedicos.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarPaciente.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarMedico.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmReporteCitas.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmReporteMedicos.resources
+C:\Users\cdveg\Downloads\Nueva carpeta\Examen1\Examen1\obj\Debug\Examen1.FrmReportePacientes.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\Examen1.exe.config
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\Examen1.exe
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\Examen1.pdb
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\BLL.dll
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\DAL.dll
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\BLL.pdb
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\bin\Debug\DAL.pdb
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.AssemblyReference.cache
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.Form1.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarCita.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarMedico.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarPaciente.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmInicioCitas.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmInicioMedicos.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmInicioPaciente.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmPrincipal.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmReporteCitas.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmReporteMedicos.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmReportePacientes.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.Properties.Resources.resources
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.GenerateResource.cache
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.CoreCompileInputs.cache
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.Up2Date
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.exe
+C:\Users\danie\Downloads\Examen1\Examen1\Examen1\obj\Debug\Examen1.pdb
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\Examen1.exe.config
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\Examen1.exe
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\Examen1.pdb
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\BLL.dll
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\DAL.dll
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\BLL.pdb
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\bin\Debug\DAL.pdb
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.AssemblyReference.cache
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.Form1.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarCita.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarMedico.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmAgregarPaciente.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmInicioCitas.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmInicioMedicos.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmInicioPaciente.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmPrincipal.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmReporteCitas.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmReporteMedicos.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.FrmReportePacientes.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.Properties.Resources.resources
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.GenerateResource.cache
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.CoreCompileInputs.cache
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.csproj.Up2Date
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.exe
+C:\Users\rrgrh\Downloads\Examen1\Examen1\Examen1\Examen1\obj\Debug\Examen1.pdb

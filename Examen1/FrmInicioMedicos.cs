@@ -15,39 +15,16 @@ namespace Examen1
     public partial class FrmInicioMedicos: Form
     {
         private Conexion _conexion = null;
-        private DataTable _dtMedicos;
         public FrmInicioMedicos()
         {
             InitializeComponent();
             _conexion = new Conexion(ConfigurationManager.ConnectionStrings["StringConexion"].ConnectionString);
             dataGridMedicos.DataSource = _conexion.ObtenerMedicos();
-            CargarMedicos();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        private void CargarMedicos()
-        {
-            _dtMedicos = _conexion.ObtenerMedicos(); // Obtener los pacientes de la BD
-            dataGridMedicos.DataSource = _dtMedicos;
-        }
-
-        private void txtBuscarMedico_TextChanged(object sender, EventArgs e)
-        {
-            FiltrarMedicos(txtBuscarMedico.Text);
-        }
-
-        private void FiltrarMedicos(string nombre)
-        {
-            if (_dtMedicos != null)
-            {
-                DataView dv = _dtMedicos.DefaultView;
-                dv.RowFilter = $"NombreCompleto LIKE '%{nombre}%'";
-                dataGridMedicos.DataSource = dv;
-            }
         }
 
         private void btnRegresarInicioMedicos_Click(object sender, EventArgs e)
@@ -112,21 +89,5 @@ namespace Examen1
             }
 
         }
-
-        private void btEditarMedico_Click(object sender, EventArgs e)
-        {
-            if (dataGridMedicos.SelectedRows.Count > 0)
-            {
-                int idMedico = Convert.ToInt32(dataGridMedicos.SelectedRows[0].Cells["IDMedico"].Value);
-                FrmEditarMedico frmEditar = new FrmEditarMedico(idMedico);
-                frmEditar.Show();
-
-            }
-            else
-            {
-                MessageBox.Show("Debe seleccionar un médico para editar.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
-
     }
 }

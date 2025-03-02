@@ -43,12 +43,11 @@ namespace Examen1
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridPacientes = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btnEditarPaciente = new System.Windows.Forms.Button();
             this.btnEliminarPaciente = new System.Windows.Forms.Button();
             this.btnRegresarInicioPacientes = new System.Windows.Forms.Button();
             this.btnAgregarInicioPaciente = new System.Windows.Forms.Button();
             this.btnReportePacientes = new System.Windows.Forms.Button();
-            this.txtBuscarPaciente = new System.Windows.Forms.TextBox();
+            this.btnEditarPaciente = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturaBoxPacientes)).BeginInit();
             this.panel2.SuspendLayout();
@@ -61,10 +60,9 @@ namespace Examen1
             this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.Controls.Add(this.lblPacientes);
             this.panel1.Controls.Add(this.picturaBoxPacientes);
-            this.panel1.Location = new System.Drawing.Point(9, 10);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(198, 286);
+            this.panel1.Size = new System.Drawing.Size(264, 352);
             this.panel1.TabIndex = 2;
             // 
             // lblPacientes
@@ -72,10 +70,9 @@ namespace Examen1
             this.lblPacientes.AutoSize = true;
             this.lblPacientes.Font = new System.Drawing.Font("Perpetua Titling MT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPacientes.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.lblPacientes.Location = new System.Drawing.Point(16, 159);
-            this.lblPacientes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblPacientes.Location = new System.Drawing.Point(21, 196);
             this.lblPacientes.Name = "lblPacientes";
-            this.lblPacientes.Size = new System.Drawing.Size(169, 32);
+            this.lblPacientes.Size = new System.Drawing.Size(207, 39);
             this.lblPacientes.TabIndex = 0;
             this.lblPacientes.Text = "Pacientes";
             this.lblPacientes.Click += new System.EventHandler(this.lblPacientes_Click);
@@ -83,10 +80,9 @@ namespace Examen1
             // picturaBoxPacientes
             // 
             this.picturaBoxPacientes.Image = ((System.Drawing.Image)(resources.GetObject("picturaBoxPacientes.Image")));
-            this.picturaBoxPacientes.Location = new System.Drawing.Point(21, 44);
-            this.picturaBoxPacientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.picturaBoxPacientes.Location = new System.Drawing.Point(28, 54);
             this.picturaBoxPacientes.Name = "picturaBoxPacientes";
-            this.picturaBoxPacientes.Size = new System.Drawing.Size(150, 104);
+            this.picturaBoxPacientes.Size = new System.Drawing.Size(200, 128);
             this.picturaBoxPacientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picturaBoxPacientes.TabIndex = 1;
             this.picturaBoxPacientes.TabStop = false;
@@ -94,23 +90,20 @@ namespace Examen1
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.txtBuscarPaciente);
             this.panel2.Controls.Add(this.dataGridPacientes);
-            this.panel2.Location = new System.Drawing.Point(219, 10);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(292, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(665, 342);
+            this.panel2.Size = new System.Drawing.Size(637, 355);
             this.panel2.TabIndex = 3;
             // 
             // dataGridPacientes
             // 
             this.dataGridPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridPacientes.Location = new System.Drawing.Point(2, 20);
-            this.dataGridPacientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridPacientes.Location = new System.Drawing.Point(3, 3);
             this.dataGridPacientes.Name = "dataGridPacientes";
             this.dataGridPacientes.RowHeadersWidth = 51;
             this.dataGridPacientes.RowTemplate.Height = 24;
-            this.dataGridPacientes.Size = new System.Drawing.Size(663, 320);
+            this.dataGridPacientes.Size = new System.Drawing.Size(627, 349);
             this.dataGridPacientes.TabIndex = 0;
             // 
             // panel3
@@ -121,36 +114,20 @@ namespace Examen1
             this.panel3.Controls.Add(this.btnRegresarInicioPacientes);
             this.panel3.Controls.Add(this.btnAgregarInicioPaciente);
             this.panel3.Controls.Add(this.btnReportePacientes);
-            this.panel3.Location = new System.Drawing.Point(30, 366);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(12, 373);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(688, 101);
+            this.panel3.Size = new System.Drawing.Size(917, 124);
             this.panel3.TabIndex = 4;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // btnEditarPaciente
-            // 
-            this.btnEditarPaciente.BackColor = System.Drawing.Color.DodgerBlue;
-            this.btnEditarPaciente.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditarPaciente.ForeColor = System.Drawing.Color.White;
-            this.btnEditarPaciente.Location = new System.Drawing.Point(521, 60);
-            this.btnEditarPaciente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnEditarPaciente.Name = "btnEditarPaciente";
-            this.btnEditarPaciente.Size = new System.Drawing.Size(154, 28);
-            this.btnEditarPaciente.TabIndex = 9;
-            this.btnEditarPaciente.Text = "Editar";
-            this.btnEditarPaciente.UseVisualStyleBackColor = false;
-            this.btnEditarPaciente.Click += new System.EventHandler(this.btnEditarPaciente_Click);
             // 
             // btnEliminarPaciente
             // 
             this.btnEliminarPaciente.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnEliminarPaciente.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarPaciente.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarPaciente.Location = new System.Drawing.Point(352, 60);
-            this.btnEliminarPaciente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminarPaciente.Location = new System.Drawing.Point(470, 74);
             this.btnEliminarPaciente.Name = "btnEliminarPaciente";
-            this.btnEliminarPaciente.Size = new System.Drawing.Size(154, 28);
+            this.btnEliminarPaciente.Size = new System.Drawing.Size(206, 35);
             this.btnEliminarPaciente.TabIndex = 8;
             this.btnEliminarPaciente.Text = "Eliminar";
             this.btnEliminarPaciente.UseVisualStyleBackColor = false;
@@ -161,10 +138,9 @@ namespace Examen1
             this.btnRegresarInicioPacientes.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnRegresarInicioPacientes.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresarInicioPacientes.ForeColor = System.Drawing.Color.White;
-            this.btnRegresarInicioPacientes.Location = new System.Drawing.Point(9, 60);
-            this.btnRegresarInicioPacientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegresarInicioPacientes.Location = new System.Drawing.Point(12, 74);
             this.btnRegresarInicioPacientes.Name = "btnRegresarInicioPacientes";
-            this.btnRegresarInicioPacientes.Size = new System.Drawing.Size(154, 28);
+            this.btnRegresarInicioPacientes.Size = new System.Drawing.Size(205, 35);
             this.btnRegresarInicioPacientes.TabIndex = 7;
             this.btnRegresarInicioPacientes.Text = "Regresar";
             this.btnRegresarInicioPacientes.UseVisualStyleBackColor = false;
@@ -175,10 +151,9 @@ namespace Examen1
             this.btnAgregarInicioPaciente.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnAgregarInicioPaciente.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarInicioPaciente.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarInicioPaciente.Location = new System.Drawing.Point(183, 60);
-            this.btnAgregarInicioPaciente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregarInicioPaciente.Location = new System.Drawing.Point(244, 74);
             this.btnAgregarInicioPaciente.Name = "btnAgregarInicioPaciente";
-            this.btnAgregarInicioPaciente.Size = new System.Drawing.Size(154, 28);
+            this.btnAgregarInicioPaciente.Size = new System.Drawing.Size(206, 35);
             this.btnAgregarInicioPaciente.TabIndex = 6;
             this.btnAgregarInicioPaciente.Text = "Agregar";
             this.btnAgregarInicioPaciente.UseVisualStyleBackColor = false;
@@ -189,33 +164,36 @@ namespace Examen1
             this.btnReportePacientes.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnReportePacientes.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportePacientes.ForeColor = System.Drawing.Color.White;
-            this.btnReportePacientes.Location = new System.Drawing.Point(9, 15);
-            this.btnReportePacientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReportePacientes.Location = new System.Drawing.Point(12, 18);
             this.btnReportePacientes.Name = "btnReportePacientes";
-            this.btnReportePacientes.Size = new System.Drawing.Size(154, 28);
+            this.btnReportePacientes.Size = new System.Drawing.Size(205, 35);
             this.btnReportePacientes.TabIndex = 5;
             this.btnReportePacientes.Text = "Reporte";
             this.btnReportePacientes.UseVisualStyleBackColor = false;
             this.btnReportePacientes.Click += new System.EventHandler(this.btnReportePacientes_Click);
             // 
-            // txtBuscarPaciente
+            // btnEditarPaciente
             // 
-            this.txtBuscarPaciente.Location = new System.Drawing.Point(0, 0);
-            this.txtBuscarPaciente.Name = "txtBuscarPaciente";
-            this.txtBuscarPaciente.Size = new System.Drawing.Size(662, 20);
-            this.txtBuscarPaciente.TabIndex = 1;
-            this.txtBuscarPaciente.TextChanged += new System.EventHandler(this.txtBuscarPaciente_TextChanged);
+            this.btnEditarPaciente.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnEditarPaciente.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarPaciente.ForeColor = System.Drawing.Color.White;
+            this.btnEditarPaciente.Location = new System.Drawing.Point(695, 74);
+            this.btnEditarPaciente.Name = "btnEditarPaciente";
+            this.btnEditarPaciente.Size = new System.Drawing.Size(206, 35);
+            this.btnEditarPaciente.TabIndex = 9;
+            this.btnEditarPaciente.Text = "Editar";
+            this.btnEditarPaciente.UseVisualStyleBackColor = false;
+            this.btnEditarPaciente.Click += new System.EventHandler(this.btnEditarPaciente_Click);
             // 
             // FrmInicioPaciente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(922, 540);
+            this.ClientSize = new System.Drawing.Size(934, 509);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmInicioPaciente";
             this.Text = "FrmInicioPaciente";
             this.Load += new System.EventHandler(this.FrmInicioPaciente_Load);
@@ -223,14 +201,53 @@ namespace Examen1
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturaBoxPacientes)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPacientes)).EndInit();
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
-        
+        private void btnEliminarPaciente_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Verificar si se ha seleccionado una fila en el DataGridView
+                if (dataGridPacientes.SelectedRows.Count > 0)
+                {
+                    // Obtener el ID del paciente de la fila seleccionada
+                    int idPaciente = Convert.ToInt32(dataGridPacientes.SelectedRows[0].Cells["IDPaciente"].Value);
+
+                    // Obtener el nombre del paciente
+                    string nombrePaciente = dataGridPacientes.SelectedRows[0].Cells["NombreCompleto"].Value.ToString();
+
+                    // Mostrar mensaje de confirmación con el nombre del paciente
+                    var confirmResult = MessageBox.Show($"¿Está seguro de que desea eliminar al paciente {nombrePaciente}?",
+                                                        "Confirmar eliminación",
+                                                        MessageBoxButtons.YesNo,
+                                                        MessageBoxIcon.Warning);
+
+                    if (confirmResult == DialogResult.Yes)
+                    {
+                        // Llamar al método EliminarPaciente de la clase Conexion
+                        _conexion.EliminarPaciente(idPaciente);  // Aquí estamos utilizando el método de tu clase Conexion
+
+                        
+                        MessageBox.Show("Paciente eliminado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        dataGridPacientes.DataSource = _conexion.ObtenerPacientes();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Debe seleccionar un paciente para eliminar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al eliminar el paciente: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
 
         #endregion
 
@@ -245,6 +262,5 @@ namespace Examen1
         private System.Windows.Forms.Button btnRegresarInicioPacientes;
         private System.Windows.Forms.Button btnEliminarPaciente;
         private Button btnEditarPaciente;
-        private TextBox txtBuscarPaciente;
     }
 }

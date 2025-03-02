@@ -33,6 +33,13 @@
             this.lblCitas = new System.Windows.Forms.Label();
             this.picturaBoxCitas = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtObservacionesCita = new System.Windows.Forms.TextBox();
+            this.comboBoxPacientes = new System.Windows.Forms.ComboBox();
+            this.comboBoxMedicos = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dtFechaCita = new System.Windows.Forms.DateTimePicker();
             this.lblIngresarDatosCita = new System.Windows.Forms.Label();
             this.cbTipoCita = new System.Windows.Forms.ComboBox();
             this.cbEstadoCita = new System.Windows.Forms.ComboBox();
@@ -48,7 +55,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnRegresarAgregarCita = new System.Windows.Forms.Button();
             this.btnAgregarCita = new System.Windows.Forms.Button();
-            this.dtFechaCita = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picturaBoxCitas)).BeginInit();
             this.panel2.SuspendLayout();
@@ -62,7 +68,7 @@
             this.panel1.Controls.Add(this.picturaBoxCitas);
             this.panel1.Location = new System.Drawing.Point(12, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(257, 316);
+            this.panel1.Size = new System.Drawing.Size(261, 396);
             this.panel1.TabIndex = 0;
             // 
             // lblCitas
@@ -89,6 +95,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.txtObservacionesCita);
+            this.panel2.Controls.Add(this.comboBoxPacientes);
+            this.panel2.Controls.Add(this.comboBoxMedicos);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.dtFechaCita);
             this.panel2.Controls.Add(this.lblIngresarDatosCita);
             this.panel2.Controls.Add(this.cbTipoCita);
@@ -104,8 +116,82 @@
             this.panel2.Controls.Add(this.lblObservacionCita);
             this.panel2.Location = new System.Drawing.Point(289, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(499, 316);
+            this.panel2.Size = new System.Drawing.Size(660, 396);
             this.panel2.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label3.Location = new System.Drawing.Point(474, 243);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(134, 20);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Observaciones";
+            // 
+            // txtObservacionesCita
+            // 
+            this.txtObservacionesCita.Location = new System.Drawing.Point(455, 276);
+            this.txtObservacionesCita.Multiline = true;
+            this.txtObservacionesCita.Name = "txtObservacionesCita";
+            this.txtObservacionesCita.Size = new System.Drawing.Size(174, 105);
+            this.txtObservacionesCita.TabIndex = 19;
+            // 
+            // comboBoxPacientes
+            // 
+            this.comboBoxPacientes.FormattingEnabled = true;
+            this.comboBoxPacientes.Items.AddRange(new object[] {
+            "Pediatría",
+            "Cardiología",
+            "Medicina General",
+            "Emergencia"});
+            this.comboBoxPacientes.Location = new System.Drawing.Point(206, 357);
+            this.comboBoxPacientes.Name = "comboBoxPacientes";
+            this.comboBoxPacientes.Size = new System.Drawing.Size(199, 24);
+            this.comboBoxPacientes.TabIndex = 18;
+            // 
+            // comboBoxMedicos
+            // 
+            this.comboBoxMedicos.FormattingEnabled = true;
+            this.comboBoxMedicos.Location = new System.Drawing.Point(206, 318);
+            this.comboBoxMedicos.Name = "comboBoxMedicos";
+            this.comboBoxMedicos.Size = new System.Drawing.Size(199, 24);
+            this.comboBoxMedicos.TabIndex = 17;
+            this.comboBoxMedicos.SelectedIndexChanged += new System.EventHandler(this.comboBoxMedicos_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label2.Location = new System.Drawing.Point(96, 361);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(92, 20);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Pacientes";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label1.Location = new System.Drawing.Point(109, 318);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 20);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Medicos";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // dtFechaCita
+            // 
+            this.dtFechaCita.CustomFormat = "\"dd/MM/yyyy HH:mm\"";
+            this.dtFechaCita.Location = new System.Drawing.Point(206, 57);
+            this.dtFechaCita.MinDate = new System.DateTime(2025, 3, 2, 0, 0, 0, 0);
+            this.dtFechaCita.Name = "dtFechaCita";
+            this.dtFechaCita.Size = new System.Drawing.Size(199, 22);
+            this.dtFechaCita.TabIndex = 14;
+            this.dtFechaCita.ValueChanged += new System.EventHandler(this.dtFechaCita_ValueChanged);
             // 
             // lblIngresarDatosCita
             // 
@@ -130,6 +216,7 @@
             this.cbTipoCita.Name = "cbTipoCita";
             this.cbTipoCita.Size = new System.Drawing.Size(199, 24);
             this.cbTipoCita.TabIndex = 12;
+            this.cbTipoCita.SelectedIndexChanged += new System.EventHandler(this.cbTipoCita_SelectedIndexChanged);
             // 
             // cbEstadoCita
             // 
@@ -239,9 +326,9 @@
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.btnRegresarAgregarCita);
             this.panel3.Controls.Add(this.btnAgregarCita);
-            this.panel3.Location = new System.Drawing.Point(12, 347);
+            this.panel3.Location = new System.Drawing.Point(12, 424);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(776, 91);
+            this.panel3.Size = new System.Drawing.Size(937, 114);
             this.panel3.TabIndex = 2;
             // 
             // btnRegresarAgregarCita
@@ -270,22 +357,12 @@
             this.btnAgregarCita.UseVisualStyleBackColor = false;
             this.btnAgregarCita.Click += new System.EventHandler(this.btnAgregarCita_Click);
             // 
-            // dtFechaCita
-            // 
-            this.dtFechaCita.CustomFormat = "\"dd/MM/yyyy HH:mm\"";
-            this.dtFechaCita.Location = new System.Drawing.Point(206, 57);
-            this.dtFechaCita.MinDate = new System.DateTime(2025, 3, 2, 0, 0, 0, 0);
-            this.dtFechaCita.Name = "dtFechaCita";
-            this.dtFechaCita.Size = new System.Drawing.Size(199, 22);
-            this.dtFechaCita.TabIndex = 14;
-            this.dtFechaCita.ValueChanged += new System.EventHandler(this.dtFechaCita_ValueChanged);
-            // 
             // FrmAgregarCita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(961, 550);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -323,5 +400,11 @@
         private System.Windows.Forms.PictureBox picturaBoxCitas;
         private System.Windows.Forms.Label lblCitas;
         private System.Windows.Forms.DateTimePicker dtFechaCita;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBoxMedicos;
+        private System.Windows.Forms.ComboBox comboBoxPacientes;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtObservacionesCita;
     }
 }
