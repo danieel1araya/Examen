@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE4BA7D0-34EB-4F66-B494-C0DB38F438B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Examen1</RootNamespace>
+    <AssemblyName>Examen1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAgregarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarCita.Designer.cs">
+      <DependentUpon>FrmAgregarCita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarMedico.Designer.cs">
+      <DependentUpon>FrmAgregarMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarPaciente.Designer.cs">
+      <DependentUpon>FrmAgregarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarMedico.Designer.cs">
+      <DependentUpon>FrmEditarMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditarPaciente.Designer.cs">
+      <DependentUpon>FrmEditarPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioCitas.Designer.cs">
+      <DependentUpon>FrmInicioCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioMedicos.Designer.cs">
+      <DependentUpon>FrmInicioMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioPaciente.Designer.cs">
+      <DependentUpon>FrmInicioPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReporteCitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReporteCitas.Designer.cs">
+      <DependentUpon>FrmReporteCitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReporteMedicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReporteMedicos.Designer.cs">
+      <DependentUpon>FrmReporteMedicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportePacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportePacientes.Designer.cs">
+      <DependentUpon>FrmReportePacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgregarCita.resx">
+      <DependentUpon>FrmAgregarCita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarMedico.resx">
+      <DependentUpon>FrmAgregarMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarPaciente.resx">
+      <DependentUpon>FrmAgregarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarMedico.resx">
+      <DependentUpon>FrmEditarMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditarPaciente.resx">
+      <DependentUpon>FrmEditarPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioCitas.resx">
+      <DependentUpon>FrmInicioCitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioMedicos.resx">
+      <DependentUpon>FrmInicioMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicioPaciente.resx">
+      <DependentUpon>FrmInicioPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReporteCitas.resx">
+      <DependentUpon>FrmReporteCitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReporteMedicos.resx">
+      <DependentUpon>FrmReporteMedicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportePacientes.resx">
+      <DependentUpon>FrmReportePacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{ec8b131d-a226-4f9a-bc7c-94857863d18c}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{84b895e6-93e3-439b-ad2e-20f3cf35f0dc}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedImg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedImg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedImg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedImg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedImg4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MedImg5.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
